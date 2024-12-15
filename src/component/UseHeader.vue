@@ -14,6 +14,11 @@ const items = [
     id: 1,
     name: 'Home',
     pathItems: `${routeUrl[0].path}`
+  },
+  {
+    id: 2,
+    name: 'Main',
+    pathItems: `${routeUrl[1].path}`
   }
 ];
 </script>

@@ -3,10 +3,10 @@ import UseHeader from './component/UseHeader.vue';
 </script>
 
 <template>
-  <div class="">
-    <div class="">
+  <v-app>
+    <v-main>
       <UseHeader />
       <RouterView />
-    </div>
-  </div>
+    </v-main>
+  </v-app>
 </template>
