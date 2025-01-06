@@ -1,5 +1,5 @@
-import UseHome from '../../pages/UseHome/UseHome.vue';
-import UseHome2 from '../../pages/UseHome2/UseHome2.vue';
+import UseHome from '../pages/UseHome/UseHome.vue';
+import UseHome2 from '../pages/UseHome2/UseHome2.vue';
 
 export const routeUrl = [
   {

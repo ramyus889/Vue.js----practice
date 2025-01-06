@@ -9,9 +9,9 @@
       <label class="block mb-2">Возраст:</label>
       <input v-model="user.age" type="number" class="p-2 border border-gray-300 rounded" />
     </div>
-    <div class="flex mt-4 text-lg">
+    <div class="flex gap-1 mt-4 text-lg">
       Имя: {{ user.name }}
-      <div v-if="user.name.length >= 7" class="px-1">Developer</div>
+      <div v-if="user.name.length >= 7" class="">Developer</div>
     </div>
     <div class="text-lg">
       Возраст: {{ user.age }}
