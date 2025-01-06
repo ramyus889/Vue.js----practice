@@ -29,9 +29,9 @@ const items = [
   >
     <div class="flex items-center gap-5 px-5 py-3 place-content-center">
       <div v-for="item in items" :key="item.id" class="">
-        <RouterLink :to="item.pathItems" :class="[useClass, isActive(item.pathItems)]">{{
+        <v-btn variant="text" :to="item.pathItems" :class="[useClass, isActive(item.pathItems)]">{{
           item.name
-        }}</RouterLink>
+        }}</v-btn>
       </div>
     </div>
   </div>

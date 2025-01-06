@@ -1,5 +1,5 @@
 import UseHome from '@/component/UseHome.vue';
-import UseMain from '@/component/UseMain.vue';
+import UseHome2 from '../component/UseHome2.vue';
 
 export const routeUrl = [
   {
@@ -17,6 +17,6 @@ export const routes = [
   },
   {
     path: `${routeUrl[1].path}`,
-    component: UseMain
+    component: UseHome2
   }
 ];
