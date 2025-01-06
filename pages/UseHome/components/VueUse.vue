@@ -15,9 +15,9 @@
     </div>
     <div class="text-lg">
       Возраст: {{ user.age }}
-      <div v-if="user.age >= 30" class="px-1">Senior</div>
-      <div v-else-if="user.age >= 26" class="px-1">Middle</div>
-      <div v-else class="px-1">Junior</div>
+      <div v-if="user.age >= 30" class="">Senior</div>
+      <div v-else-if="user.age >= 26" class="">Middle</div>
+      <div v-else class="">Junior</div>
     </div>
     <p class="text-lg">Данные без возраста: {{ userWithoutAge }}</p>
   </div>
